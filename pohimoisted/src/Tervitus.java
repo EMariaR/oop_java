@@ -5,6 +5,10 @@ public class Tervitus {
         this.tervitusTekst = tervitusTekst;
     }
 
+    public Tervitus() {
+        this.tervitusTekst = "...";
+    }
+
     public void tervita() {
         System.out.println(tervitusTekst);
         }
@@ -12,4 +16,6 @@ public class Tervitus {
     public void main(String[] args) {
         tervitusTekst = "Tere, Anna!";
         }
+
+
 }
