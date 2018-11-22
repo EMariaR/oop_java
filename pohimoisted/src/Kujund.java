@@ -1,14 +1,25 @@
 public class Kujund {
 //  tüüpi nimetused - klassi muutujad
-    public String nimetus;
-    public Double pindala;
-    public Boolean nurkadeOlemasolu;
-    public Integer nurkadeArv;
+    private String nimetus;
+    private Double pindala;
+    private Boolean nurkadeOlemasolu;
+    private Integer nurkadeArv;
 
 //  klassi konstruktor
     public Kujund(String nimi) {
-        this.nimetus = nimi;,
+        System.out.println(this.nimetus);
+        this.nimetus = nimi;
+    }
 
+    //setterid
+    public void
+
+    public void setNurkadeOlemasolu(Boolean nurkadeOlemasolu) {
+        this.nurkadeOlemasolu = nurkadeOlemasolu;
+    }
+
+    public void setNurkadeArv(Integer nurkadeArv) {
+        this.nurkadeArv = nurkadeArv;
     }
 
     public void setNimetus(String nimi) {
